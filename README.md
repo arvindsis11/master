@@ -1,29 +1,23 @@
-# Hello world 😎 !!!
+
+# FACE_LOCK_SYSTEM:
 
 
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+This face lock system built using python and openCV library.
+## requirements
+python 2.7 or above
+  - opencv-python==4.1.1.26
+  - opencv-contrib-python==4.1.1.26
+  - Pillow==6.1.0
+  - pyautogui==0.9.48
 
+#### run following commands
 
-
-
-
-
-
-
-
-
-
-
-## OpenCV-Face-Recognition
-
-Real-time face recognition project with OpenCV and Python 
-## AI-Healthcare-chatbot
-
-### automated-face-lock-system
-
-# Face Detection using Python and OpenCV with webcam
-
-OpenCV is a Library which is used to carry out image processing using programming languages like python. This project utilizes OpenCV Library to make a Real-Time Face Detection using your webcam as a primary camera.
-
-### complete python simple code...
-final year project
+  ```sh
+$ pip install -r requirements.txt
+$ python dataset01.py
+$ python train02.py
+$ python facelock03.py
+```
+Copyright (c) 2019
